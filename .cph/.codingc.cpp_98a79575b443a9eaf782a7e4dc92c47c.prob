@@ -1,1 +1,0 @@
-{"name":"Local: codingc","url":"c:\\Users\\venu sai\\OneDrive\\Documents\\c++ code\\codingc.cpp","tests":[{"id":1633349861398,"input":"e 1 venu 22\ne 2 sai 21\ne 3 lam 90\np\nt","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\venu sai\\OneDrive\\Documents\\c++ code\\codingc.cpp","group":"local","local":true}

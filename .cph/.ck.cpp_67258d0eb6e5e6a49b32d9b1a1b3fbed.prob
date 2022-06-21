@@ -1,1 +1,0 @@
-{"name":"Local: ck","url":"c:\\Users\\venu sai\\OneDrive\\Documents\\c++ code\\ck.cpp","tests":[{"id":1647058341521,"input":"10\n4\nsnake1 1,5 1,8\nsnake2 7,4 7,7\nsnake3 2,10 4,10\nsnake4 4,2 2,2\nW2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\venu sai\\OneDrive\\Documents\\c++ code\\ck.cpp","group":"local","local":true}
