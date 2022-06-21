@@ -1,0 +1,20 @@
+arr=["abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"]
+n=int(input())
+first=int(n/10)
+second=int(n%10)
+str=arr[first-2]+arr[second-2]
+l=len(str)
+i=0
+j=0
+ans=[]
+while(i<l):
+    while(j<l):
+        if(j==i):
+            j=j+1
+            continue
+        ans.append(str[i]+str[j])
+        j=j+1
+    i=i+1
+    j=0
+print(ans)
+

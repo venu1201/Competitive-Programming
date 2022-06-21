@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simulation</title>
+    <style>
+        #b{
+            background-color: black;
+            height: 50%;
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            
+            
+        }
+        #bb{
+            height: 1000px;
+            width: 100%;
+            border: 2px solid blue;  
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .y{
+            
+             border: 2px solid red;
+            border-radius: 50%;
+            width: 23%;
+            height: 23%;
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="bb">
+        <div id="b">
+           
+            <div class="y" id="red"></div>
+            <div class="y" id="orange"></div>
+            <div class="y" id="green"></div>
+        </div>
+    </div>
+   <script>
+       let x=document.getElementById('red');
+       let y=document.getElementById('orange');
+       let z=document.getElementById('green');
+       let t=0;
+       x.addEventListener('click',function()
+       {
+           t=t+1;
+           if(t%2==1)
+           {
+               x.style.backgroundColor="red";
+           }
+           else
+           {
+               x.style.backgroundColor="black";
+           }
+           if(t%2==1)
+           {
+               y.style.backgroundColor="orange";
+           }
+           else
+           {
+               y.style.backgroundColor="black";
+           }
+           if(t%2==1)
+           {
+               z.style.backgroundColor="green";
+           }
+           else
+           {
+               z.style.backgroundColor="black";
+           }
+           
+           console.log(t);
+       })
+   </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D</title>
+</head>
+<body id="body">
+    <h2 id="ch">hello click here</h2>
+    <div id="text">
+        
+    </div>
+</body>
+<script>
+    let t=document.getElementById('text');
+    console.log(t)
+    let ch=document.getElementById('ch');
+    let x=0;
+    let b=document.getElementById('body');
+    ch.addEventListener('click',function(e)
+    {
+        
+        console.log(e)
+        if(x%2==0)
+        {
+            ht='<div style="background-color: blue;"> hello guys </div>';
+            t.innerHTML=ht;
+        }
+        else
+        {
+            t.innerHTML=""
+        }
+        b.innerHTML='<div style="background-color: red;"> welcome again </div>'
+        x=x+1
+        console.log(x)
+
+    })
+    
+    
+</script>
+</html>
